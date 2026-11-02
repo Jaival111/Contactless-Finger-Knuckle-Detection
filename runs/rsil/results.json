@@ -1,0 +1,49 @@
+{
+  "checkpoint": "C:\\Users\\JAIVAL CHAUHAN\\Desktop\\Biometrics  Implementation\\JSTP\\runs\\rsil\\last.pt",
+  "data_root": "C:\\Users\\JAIVAL CHAUHAN\\Desktop\\Biometrics  Implementation\\JSTP\\Knuckle_Images",
+  "protocol": "open",
+  "alignment": {
+    "max_shift_x": 4,
+    "max_shift_y": 4,
+    "angles": [
+      -4.0,
+      -2.0,
+      0.0,
+      2.0,
+      4.0
+    ],
+    "shift_step": 1,
+    "min_overlap": 0.5
+  },
+  "gallery_probe": {
+    "num_genuine": 80,
+    "num_impostor": 1520,
+    "EER": 0.13749999999999996,
+    "GAR@FAR=0.01": 0.725,
+    "GAR@FAR=0.001": 0.6375,
+    "GAR@FAR=0.0001": 0.6
+  },
+  "rank1": 0.8,
+  "cmc": [
+    0.8,
+    0.8375,
+    0.85,
+    0.875,
+    0.8875,
+    0.9,
+    0.9125,
+    0.925,
+    0.9375,
+    0.9375
+  ],
+  "feature_extraction_s_per_image": 0.0020589971542358397,
+  "matching_s_per_pair": 0.00013153955340385436,
+  "all_to_all": {
+    "num_genuine": 200,
+    "num_impostor": 4750,
+    "EER": 0.12,
+    "GAR@FAR=0.01": 0.775,
+    "GAR@FAR=0.001": 0.7,
+    "GAR@FAR=0.0001": 0.645
+  }
+}
