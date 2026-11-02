@@ -2,7 +2,7 @@
 
 This is a PyTorch implementation of *Zhou & Kumar, "Completely Contactless and Online Finger Knuckle
 Identification for Real World Applications"* (JSTSP 2023, `JSTSP2023.pdf`). It uses `Knuckle_Images/`
-in place of the paper's PolyU/Tsinghua databases. That folder holds 249 segmented knuckle ROIs
+[dataset](https://www.kaggle.com/datasets/s3programmerlead/palmprint-and-finger-knuckle-pattern-dataset) in place of the paper's PolyU/Tsinghua databases. That folder holds 249 segmented knuckle ROIs
 (80 x 100, grayscale) from 50 subjects, with about 5 samples per subject, named `<subject>_<sample>.bmp`.
 
 ## Mapping paper → code
